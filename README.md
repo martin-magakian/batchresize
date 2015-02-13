@@ -31,8 +31,6 @@ How to use
 
 Dependency
 ---
-- Need image magic
-
 on debian/ubuntu:<br />
 $ apt-get install imagemagic
 
