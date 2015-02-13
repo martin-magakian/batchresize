@@ -2,24 +2,22 @@
 
 
 The problem
-===========
-I used to resize manually in photoshop: it was far too long
-Then I used imagemagic from the command: still to long. It only use a single core of my machine
-So I creating this small multi-threaded bash script
+---
+Resize manually in photoshop: it was far too long<br />
+Resize with imagemagic: still to long. It only use a single core of my machine
 
+
+So I creating this small multi-threaded bash script
 One a 8 core machine it will get 8 times faster than imagemagic.
-![Multithread batch resize](https://raw.github.com/martin-magakian/batchresize/master/README_src/multithread.png)
 
 Warning
-===========
-This script replace the original picture.
-Copy your picture before resizing them or you will lose quality.
-An alert is display before processing:
+---
+This script replace the original picture.<br />
+An alert is display before processing:<br />
 ![Warning](https://raw.github.com/martin-magakian/batchresize/master/README_src/warning.png)
 
-
 How to use
-===========
+---
 
 - Resize current directory to retina display (2880x1800)
 
@@ -34,12 +32,14 @@ How to use
     $ batchresize.sh mini
 
 
-Need image magic
-===========
-on debian/ubuntu:
+Dependency
+---
+- Need image magic
+
+on debian/ubuntu:<br />
 $ apt-get install imagemagic
 
-on mac os x with brew:
+on mac os x with brew:<br />
 $ brew install imagemagic
 
 
