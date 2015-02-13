@@ -6,14 +6,11 @@ The problem
 Resize manually in photoshop: it was far too long<br />
 Resize with imagemagic: still to long. It only use a single core of my machine
 
-
-So I creating this small multi-threaded bash script
-One a 8 core machine it will get 8 times faster than imagemagic.
+So I created this script who will run is 8 times faster on a 8 core CPU
 
 Warning
 ---
-This script replace the original picture.<br />
-An alert is display before processing:<br />
+This script replace the original picture. An alert is display before processing:<br />
 ![Warning](https://raw.github.com/martin-magakian/batchresize/master/README_src/warning.png)
 
 How to use
