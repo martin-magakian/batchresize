@@ -32,10 +32,10 @@ How to use
 Dependency
 ---
 on debian/ubuntu:<br />
-$ apt-get install imagemagic
+$ apt-get install imagemagick
 
 on mac os x with brew:<br />
-$ brew install imagemagic
+$ brew install imagemagick
 
 
 Licence
