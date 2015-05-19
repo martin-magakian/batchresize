@@ -1,5 +1,5 @@
 # batchresize
-
+By [Anomaly Detection](https://anomaly.io)
 
 The problem
 ---
